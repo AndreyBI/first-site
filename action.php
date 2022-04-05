@@ -19,7 +19,7 @@
 	$mail->SMTPSecure = 'ssl';
 	$mail->Port = 465;
 	$mail->Username = 'baykalov-andrey@mail.ru';
-	$mail->Password = 'ezDT4ga2KvgJbXiR';
+	$mail->Password = '****************';
 
 	$msg_box = ""; // в этой переменной будем хранить сообщения формы
 	$errors = array(); // контейнер для ошибок
