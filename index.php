@@ -37,7 +37,7 @@
     //////////////////// taking words from base 0f data ///////////////////////
     function getArticle($id){
         $language = getLanguage();
-        $mysqli = new mysqli("127.0.0.1", "mysql", "mysql", "hybrik");
+        $mysqli = new mysqli("127.0.0.1", "mysql", "mysql", "******");
         $mysqli->set_charset("utf8");
         $result_set = $mysqli->query("SELECT * FROM `articles_$language` WHERE `id`= '$id'");
         $article = $result_set->fetch_assoc();
@@ -341,7 +341,7 @@
                 <sup>
                     ©
                 </sup>
-                Hybrik 2020
+                ****** ****
             </p>
             <hr width="90%">
             <div id="problem">
