@@ -1,0 +1,16 @@
+#foo-text {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.menu-min {
+    font-size: 1.7rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.menu-min:hover {
+    background-color: #0071c2;
+    font-size: 1.9rem;
+    color: whitesmoke;
+}

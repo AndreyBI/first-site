@@ -1,0 +1,95 @@
+#ro-logo, #logo-down-img {
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    height: 60px;
+}
+
+#logo-down-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#roof {
+    background-color: black;
+}
+
+.menu-button:after {
+    background-color: white;
+}
+
+.menu-button:before {
+    background-color: white;
+}
+
+.menu-block-1 {
+    background-color: #14038b;
+}
+
+.menu-block-2 {
+    background-color: #222;
+}
+
+nav, #menu-side, #menu-side-point, #menu-side-link:hover {
+    color: #17a8ff;
+}
+
+#pre-text {
+    color: beige;
+}
+
+#division-1, #division-2, #division-3, #footer {
+    background-color: black;
+}
+
+#fir-cont, #sec-cont, #application {
+    background-color: #262626;
+}
+
+#foo-text {
+    color: whitesmoke;
+}
+
+#app-text, #app-text-2 {
+    color: whitesmoke;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0);
+    color: #00dbff;
+}
+
+#send {
+    background-color: red;
+    color: whitesmoke;
+}
+
+textarea {
+    background-color: rgba(0, 0, 0, 0);
+    color: #00dbff;
+}
+
+.cb:before {
+    background: url('../img/check_night.png') 0 100%/1.2em 1.35em no-repeat;
+}
+
+#fir-cont-text {
+    color: whitesmoke;
+}
+
+#problem > a {
+    color: #00f3ff;
+    text-shadow: 1px 1px #7a30ff;
+}
+
+@media (min-width: 576px) {
+    #link:visited {
+        color: rgb(0, 231, 255);
+    }
+}
+
+@media (min-width: 992px) {
+    .content-item:hover .overlay-content {
+        background-position-x: 0px !important;
+    }
+}

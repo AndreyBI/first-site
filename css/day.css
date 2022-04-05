@@ -1,0 +1,130 @@
+#body {
+    background-color: #42a0e4;
+    --inv: #ff9a55;
+    color: white !important;
+}
+
+#ro-logo, #logo-down-img {
+    background-image: url('../img/logo-day.png');
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: 100%;
+}
+
+#logo-down-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#roof, #division-1, #division-2, #division-3, #footer, #problem, article {
+    background-color: #1485d5;
+}
+
+#roof, #division-1, #division-2, #division-3, #footer {
+    border: inset;
+    width: 100%;
+}
+
+#application, #fir-cont, #sec-cont {
+    background-color: #42a0e4;
+}
+
+input, textarea, #theme, .btn, #link, .country-phone-selected {
+    color: white !important;
+}
+
+.menu-block-2 {
+    background-color: #1485d5;
+}
+
+nav, #menu-side, #menu-side-point, #menu-side-link:hover {
+    color: black;
+}
+
+#fir-cont-img {
+    background-image: url('../img/4.jpg');
+    padding-top: 57%;
+    background-size: 100%;
+    margin-bottom: 0px;
+}
+
+#sec-cont-img {
+    background-image: url('../img/3.jpg');
+    padding-top: 45%;
+    margin-bottom: 0px;
+}
+
+#presentation {
+    background-image: url("../img/123-8.jpeg");
+    padding-top: 48%;
+}
+
+.presentation {
+    padding-top: 45% !important;
+}
+
+.btn:hover {
+    color: #000000 !important;
+}
+
+.modal {
+    background-color: #038bcd;
+}
+
+@media (min-width: 576px) {
+    #sec-cont-img {
+        padding-top: 22%;
+    }
+
+    #fir-cont-img {
+        padding-top: 28%;
+    }
+
+    #link {
+        line-height: 45px;
+    }
+
+    .from-middle:hover:after {
+        height: 45px;
+    }
+
+    .from-middle:before {
+        height: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    #presentation {
+        display: block;
+        width: 90%;
+        padding-top: 38%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .content-item {
+        background-image: url("../img/123-8.jpeg");
+        padding-top: 48%;
+        background-size: 100%;
+    }
+
+    .presentation {
+        padding-top: 0% !important;
+        margin-bottom: 0px !important;
+        height: auto !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url("../img/fon-day.jpg");
+        background-size: 100%;
+    }
+
+    #body {
+        box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    }
+}
